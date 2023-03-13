@@ -139,6 +139,8 @@ export const button = style({
   alignItems: 'center',
   justifyContent: 'center',
   cursor: 'pointer',
+  fontWeight: globalTheme.font.weight.medium,
+  fontSize: globalTheme.font.size.small,
 
   transition: 'background-color 200ms ease',
   ':hover': {
