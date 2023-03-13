@@ -21,7 +21,7 @@ import {
 } from './card.css';
 
 function Card() {
-  const [board, setBoard] = useState(1);
+  const [board, setBoard] = useState(0);
 
   const maxBoard = 10;
 

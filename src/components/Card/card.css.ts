@@ -53,7 +53,7 @@ export const featureListContainer = style({
   alignItems: 'center',
   justifyContent: 'center',
   width: '100%',
-  gap: '10px',
+  gap: '15px',
 });
 
 export const featureItemContainer = style({
@@ -86,6 +86,7 @@ export const featureItemTitle = style({
   fontSize: '12px',
   fontWeight: '700',
   lineHeight: globalTheme.font.size.medium,
+  color: globalTheme.color.secondary,
 });
 
 export const featureItemSubtitle = style({
@@ -101,6 +102,7 @@ export const featureItemDescription = style({
   fontWeight: '400',
   lineHeight: globalTheme.font.size.medium,
   color: globalTheme.color.secondary,
+  textAlign: 'left',
 });
 
 export const usageContainer = style({
@@ -116,7 +118,7 @@ export const usageTitle = style({
   fontSize: globalTheme.font.size.small,
   fontWeight: '700',
   lineHeight: '22px',
-  color: '#242628',
+  color: globalTheme.color.gray2,
 });
 
 export const usageCount = style({
@@ -140,10 +142,10 @@ export const button = style({
 
   transition: 'background-color 200ms ease',
   ':hover': {
-    backgroundColor: '#B55147',
+    backgroundColor: globalTheme.color.primaryHover,
   },
   ':active': {
-    backgroundColor: '#883D35',
+    backgroundColor: globalTheme.color.primaryActive,
   },
   ':disabled': {
     opacity: 0.4,

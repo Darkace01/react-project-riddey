@@ -10,11 +10,14 @@ export const mainContainer = style({
   width: '100%',
 });
 
-// Define your colors and other styles
 export const globalTheme = createGlobalTheme(':root', {
   color: {
     primary: '#E26559',
     secondary: '#3C4043',
+    gray2: '#242628',
+    gray3: '#EBECEC',
+    primaryHover: '#B55147',
+    primaryActive: '#883D35',
   },
   font: {
     size: {
@@ -24,29 +27,18 @@ export const globalTheme = createGlobalTheme(':root', {
     },
   },
 });
+
+['body', 'p', 'h3', 'h2', 'h1'].forEach((selector) =>
+  globalStyle(selector, {
+    marginBlockEnd: 0,
+    marginBlockStart: 0,
+  })
+);
+
 globalStyle('body', {
   padding: 0,
   margin: 0,
   fontFamily: 'Montserrat, sans-serif',
   textAlign: 'center',
-});
-
-globalStyle('p', {
-  marginBlockEnd: 0,
-  marginBlockStart: 0,
-});
-
-globalStyle('h3', {
-  marginBlockEnd: 0,
-  marginBlockStart: 0,
-});
-
-globalStyle('h2', {
-  marginBlockEnd: 0,
-  marginBlockStart: 0,
-});
-
-globalStyle('h1', {
-  marginBlockEnd: 0,
-  marginBlockStart: 0,
+  color: globalTheme.color.secondary,
 });

@@ -5,7 +5,7 @@ import { globalTheme } from '../../app.css';
 export const progressBarStyles = style({
   width: '200px',
   height: '4px',
-  backgroundColor: globalTheme.color.secondary,
+  backgroundColor: globalTheme.color.gray3,
   overflow: 'hidden',
 });
 
