@@ -1,8 +1,13 @@
 import * as React from 'react';
-import { card, title } from './styles.css';
+import { mainContainer } from './app.css';
+import Card from './components/Card/Index';
 
 function App() {
-  return <div className={title}>App Hello World</div>;
+  return (
+    <section className={mainContainer}>
+      <Card />
+    </section>
+  );
 }
 
 export default App;
