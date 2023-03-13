@@ -31,10 +31,6 @@ export const globalTheme = createGlobalTheme(':root', {
       medium: '700',
     },
   },
-  breakpoints: {
-    tablet: 'screen and (min-width: 768px)',
-    desktop: 'screen and (min-width: 1024px)',
-  },
 });
 
 globalStyle('body', {
