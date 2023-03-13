@@ -10,15 +10,17 @@
 :root {
   --_1opu91r1: #E26559;
   --_1opu91r2: #3C4043;
-  --_1opu91r3: 14px;
-  --_1opu91r4: 16px;
-  --_1opu91r5: 18px;
+  --_1opu91r3: #242628;
+  --_1opu91r4: #EBECEC;
+  --_1opu91r5: #B55147;
+  --_1opu91r6: #883D35;
+  --_1opu91r7: 14px;
+  --_1opu91r8: 16px;
+  --_1opu91r9: 18px;
 }
 body {
-  padding: 0;
-  margin: 0;
-  font-family: Montserrat, sans-serif;
-  text-align: center;
+  margin-block-end: 0;
+  margin-block-start: 0;
 }
 p {
   margin-block-end: 0;
@@ -36,10 +38,17 @@ h1 {
   margin-block-end: 0;
   margin-block-start: 0;
 }
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  color: var(--_1opu91r2);
+}
 ._1iuviq80 {
   width: 200px;
   height: 4px;
-  background-color: var(--_1opu91r2);
+  background-color: var(--_1opu91r4);
   overflow: hidden;
 }
 ._1iuviq81 {
@@ -82,7 +91,7 @@ h1 {
   height: 86px;
 }
 .ndhfn24 {
-  font-size: var(--_1opu91r3);
+  font-size: var(--_1opu91r7);
   font-weight: 400;
   line-height: 22px;
   font-style: normal;
@@ -94,7 +103,7 @@ h1 {
   align-items: center;
   justify-content: center;
   width: 100%;
-  gap: 10px;
+  gap: 15px;
 }
 .ndhfn26 {
   display: flex;
@@ -122,20 +131,22 @@ h1 {
 .ndhfn29 {
   font-size: 12px;
   font-weight: 700;
-  line-height: var(--_1opu91r4);
+  line-height: var(--_1opu91r8);
+  color: var(--_1opu91r2);
 }
 .ndhfn2a {
   font-size: 12px;
   font-weight: 400;
-  line-height: var(--_1opu91r4);
+  line-height: var(--_1opu91r8);
   color: var(--_1opu91r2);
   margin-left: 5px;
 }
 .ndhfn2b {
   font-size: 12px;
   font-weight: 400;
-  line-height: var(--_1opu91r4);
+  line-height: var(--_1opu91r8);
   color: var(--_1opu91r2);
+  text-align: left;
 }
 .ndhfn2c {
   display: flex;
@@ -146,15 +157,15 @@ h1 {
   gap: 10px;
 }
 .ndhfn2d {
-  font-size: var(--_1opu91r3);
+  font-size: var(--_1opu91r7);
   font-weight: 700;
   line-height: 22px;
-  color: #242628;
+  color: var(--_1opu91r3);
 }
 .ndhfn2e {
   font-size: 12px;
   font-weight: 700;
-  line-height: var(--_1opu91r4);
+  line-height: var(--_1opu91r8);
   color: var(--_1opu91r1);
 }
 .ndhfn2f {
@@ -171,10 +182,10 @@ h1 {
   transition: background-color 200ms ease;
 }
 .ndhfn2f:hover {
-  background-color: #B55147;
+  background-color: var(--_1opu91r5);
 }
 .ndhfn2f:active {
-  background-color: #883D35;
+  background-color: var(--_1opu91r6);
 }
 .ndhfn2f:disabled {
   opacity: 0.4;
