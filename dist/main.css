@@ -14,29 +14,12 @@
   --_1opu91r4: #EBECEC;
   --_1opu91r5: #B55147;
   --_1opu91r6: #883D35;
-  --_1opu91r7: 14px;
-  --_1opu91r8: 16px;
-  --_1opu91r9: 18px;
-}
-body {
-  margin-block-end: 0;
-  margin-block-start: 0;
-}
-p {
-  margin-block-end: 0;
-  margin-block-start: 0;
-}
-h3 {
-  margin-block-end: 0;
-  margin-block-start: 0;
-}
-h2 {
-  margin-block-end: 0;
-  margin-block-start: 0;
-}
-h1 {
-  margin-block-end: 0;
-  margin-block-start: 0;
+  --_1opu91r7: #FFFFFF;
+  --_1opu91r8: 14px;
+  --_1opu91r9: 16px;
+  --_1opu91ra: 18px;
+  --_1opu91rb: 400;
+  --_1opu91rc: 700;
 }
 body {
   padding: 0;
@@ -44,6 +27,13 @@ body {
   font-family: Montserrat, sans-serif;
   text-align: center;
   color: var(--_1opu91r2);
+}
+* {
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+h1, h2, h3 {
+  font-weight: var(--_1opu91rc);
 }
 ._1iuviq80 {
   width: 200px;
@@ -69,7 +59,7 @@ body {
 }
 .ndhfn21 {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: var(--_1opu91rc);
   line-height: 24px;
   font-style: normal;
   color: var(--_1opu91r2);
@@ -91,8 +81,8 @@ body {
   height: 86px;
 }
 .ndhfn24 {
-  font-size: var(--_1opu91r7);
-  font-weight: 400;
+  font-size: var(--_1opu91r8);
+  font-weight: var(--_1opu91rb);
   line-height: 22px;
   font-style: normal;
   color: #636669;
@@ -130,21 +120,21 @@ body {
 }
 .ndhfn29 {
   font-size: 12px;
-  font-weight: 700;
-  line-height: var(--_1opu91r8);
+  font-weight: var(--_1opu91rc);
+  line-height: var(--_1opu91r9);
   color: var(--_1opu91r2);
 }
 .ndhfn2a {
   font-size: 12px;
-  font-weight: 400;
-  line-height: var(--_1opu91r8);
+  font-weight: var(--_1opu91rb);
+  line-height: var(--_1opu91r9);
   color: var(--_1opu91r2);
   margin-left: 5px;
 }
 .ndhfn2b {
   font-size: 12px;
-  font-weight: 400;
-  line-height: var(--_1opu91r8);
+  font-weight: var(--_1opu91rb);
+  line-height: var(--_1opu91r9);
   color: var(--_1opu91r2);
   text-align: left;
 }
@@ -157,15 +147,15 @@ body {
   gap: 10px;
 }
 .ndhfn2d {
-  font-size: var(--_1opu91r7);
-  font-weight: 700;
+  font-size: var(--_1opu91r8);
+  font-weight: var(--_1opu91rc);
   line-height: 22px;
   color: var(--_1opu91r3);
 }
 .ndhfn2e {
   font-size: 12px;
-  font-weight: 700;
-  line-height: var(--_1opu91r8);
+  font-weight: var(--_1opu91rc);
+  line-height: var(--_1opu91r9);
   color: var(--_1opu91r1);
 }
 .ndhfn2f {
@@ -179,6 +169,8 @@ body {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  font-weight: var(--_1opu91rc);
+  font-size: var(--_1opu91r8);
   transition: background-color 200ms ease;
 }
 .ndhfn2f:hover {
