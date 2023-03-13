@@ -15,7 +15,7 @@ export const cardContainer = style({
 
 export const cardTitle = style({
   fontSize: '20px',
-  fontWeight: '700',
+  fontWeight: globalTheme.font.weight.medium,
   lineHeight: '24px',
   fontStyle: 'normal',
   color: globalTheme.color.secondary,
@@ -41,7 +41,7 @@ export const badgeIconContinaer = style({
 
 export const subTitle = style({
   fontSize: globalTheme.font.size.small,
-  fontWeight: '400',
+  fontWeight: globalTheme.font.weight.normal,
   lineHeight: '22px',
   fontStyle: 'normal',
   color: '#636669',
@@ -84,14 +84,14 @@ export const featureItemTitleSection = style({
 
 export const featureItemTitle = style({
   fontSize: '12px',
-  fontWeight: '700',
+  fontWeight: globalTheme.font.weight.medium,
   lineHeight: globalTheme.font.size.medium,
   color: globalTheme.color.secondary,
 });
 
 export const featureItemSubtitle = style({
   fontSize: '12px',
-  fontWeight: '400',
+  fontWeight: globalTheme.font.weight.normal,
   lineHeight: globalTheme.font.size.medium,
   color: globalTheme.color.secondary,
   marginLeft: '5px',
@@ -99,7 +99,7 @@ export const featureItemSubtitle = style({
 
 export const featureItemDescription = style({
   fontSize: '12px',
-  fontWeight: '400',
+  fontWeight: globalTheme.font.weight.normal,
   lineHeight: globalTheme.font.size.medium,
   color: globalTheme.color.secondary,
   textAlign: 'left',
@@ -116,14 +116,14 @@ export const usageContainer = style({
 
 export const usageTitle = style({
   fontSize: globalTheme.font.size.small,
-  fontWeight: '700',
+  fontWeight: globalTheme.font.weight.medium,
   lineHeight: '22px',
   color: globalTheme.color.gray2,
 });
 
 export const usageCount = style({
   fontSize: '12px',
-  fontWeight: '700',
+  fontWeight: globalTheme.font.weight.medium,
   lineHeight: globalTheme.font.size.medium,
   color: globalTheme.color.primary,
 });

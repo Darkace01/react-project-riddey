@@ -18,6 +18,7 @@ export const globalTheme = createGlobalTheme(':root', {
     gray3: '#EBECEC',
     primaryHover: '#B55147',
     primaryActive: '#883D35',
+    white: '#FFFFFF',
   },
   font: {
     size: {
@@ -25,15 +26,16 @@ export const globalTheme = createGlobalTheme(':root', {
       medium: '16px',
       large: '18px',
     },
+    weight: {
+      normal: '400',
+      medium: '700',
+    },
+  },
+  breakpoints: {
+    tablet: 'screen and (min-width: 768px)',
+    desktop: 'screen and (min-width: 1024px)',
   },
 });
-
-['body', 'p', 'h3', 'h2', 'h1'].forEach((selector) =>
-  globalStyle(selector, {
-    marginBlockEnd: 0,
-    marginBlockStart: 0,
-  })
-);
 
 globalStyle('body', {
   padding: 0,
@@ -41,4 +43,13 @@ globalStyle('body', {
   fontFamily: 'Montserrat, sans-serif',
   textAlign: 'center',
   color: globalTheme.color.secondary,
+});
+
+globalStyle('*', {
+  marginBlockEnd: 0,
+  marginBlockStart: 0,
+});
+
+globalStyle('h1, h2, h3', {
+  fontWeight: globalTheme.font.weight.medium,
 });
