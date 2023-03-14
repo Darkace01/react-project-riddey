@@ -82,14 +82,14 @@ export const featureItemTitleSection = style({
 });
 
 export const featureItemTitle = style({
-  fontSize: '12px',
+  fontSize: globalTheme.font.size.extraSmall,
   fontWeight: globalTheme.font.weight.medium,
   lineHeight: globalTheme.font.size.medium,
   color: globalTheme.color.secondary,
 });
 
 export const featureItemSubtitle = style({
-  fontSize: '12px',
+  fontSize: globalTheme.font.size.extraSmall,
   fontWeight: globalTheme.font.weight.normal,
   lineHeight: globalTheme.font.size.medium,
   color: globalTheme.color.lightGray,
@@ -97,7 +97,7 @@ export const featureItemSubtitle = style({
 });
 
 export const featureItemDescription = style({
-  fontSize: '12px',
+  fontSize: globalTheme.font.size.extraSmall,
   fontWeight: globalTheme.font.weight.normal,
   lineHeight: globalTheme.font.size.medium,
   color: globalTheme.color.lightGray,
@@ -121,7 +121,7 @@ export const usageTitle = style({
 });
 
 export const usageCount = style({
-  fontSize: '12px',
+  fontSize: globalTheme.font.size.extraSmall,
   fontWeight: globalTheme.font.weight.medium,
   lineHeight: globalTheme.font.size.medium,
   color: globalTheme.color.primary,
