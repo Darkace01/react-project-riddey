@@ -34,7 +34,13 @@ function Card() {
     <div className={cardContainer}>
       <div className={badgeSectionContainer}>
         <div className={badgeIconContinaer}>
-          <img src='https://i.imgur.com/fUNaUk8.png' alt='icon' />
+          <img
+            src={require('../../../assets/icons/badge.png')}
+            alt='icon'
+            width='27.67px'
+            height='29.92px'
+            loading='lazy'
+          />
         </div>
         <h1 className={cardTitle}>
           Upgrade to Riddey PRO and boost productivity!
@@ -46,7 +52,13 @@ function Card() {
       <div className={featureListContainer}>
         <div className={featureItemContainer}>
           <div className={featureIcon}>
-            <img src='https://i.imgur.com/b8BoNaT.png' alt='check icon' />
+            <img
+              src={require('../../../assets/icons/check.png')}
+              loading='lazy'
+              width='8.2px'
+              height='5.96px'
+              alt='check icon'
+            />
           </div>
           <div>
             <div className={featureItemTitleSection}>
@@ -60,7 +72,13 @@ function Card() {
         </div>
         <div className={featureItemContainer}>
           <div className={featureIcon}>
-            <img src='https://i.imgur.com/b8BoNaT.png' alt='check icon' />
+            <img
+              src={require('../../../assets/icons/check.png')}
+              loading='lazy'
+              width='8.2px'
+              height='5.96px'
+              alt='check icon'
+            />
           </div>
           <div>
             <div className={featureItemTitleSection}>
@@ -76,7 +94,13 @@ function Card() {
         </div>
         <div className={featureItemContainer}>
           <div className={featureIcon}>
-            <img src='https://i.imgur.com/b8BoNaT.png' alt='check icon' />
+            <img
+              src={require('../../../assets/icons/check.png')}
+              loading='lazy'
+              width='8.2px'
+              height='5.96px'
+              alt='check icon'
+            />
           </div>
           <div>
             <div className={featureItemTitleSection}>
