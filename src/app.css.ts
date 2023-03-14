@@ -23,10 +23,11 @@ export const globalTheme = createGlobalTheme(':root', {
   },
   font: {
     size: {
-      extraSmall: '12px',
-      small: '14px',
-      medium: '16px',
-      large: '18px',
+      extraSmall: '0.75rem',
+      small: '0.875rem',
+      medium: '1rem',
+      large: '1.125rem',
+      extraLarge: '1.25rem',
     },
     weight: {
       normal: '400',

@@ -7,14 +7,14 @@ export const cardContainer = style({
   flexDirection: 'column',
   alignItems: 'center',
   justifyContent: 'center',
-  width: '300px',
+  width: '18.75rem',
   padding: '20px',
   boxSizing: 'border-box',
   gap: '10px',
 });
 
 export const cardTitle = style({
-  fontSize: '20px',
+  fontSize: globalTheme.font.size.extraLarge,
   lineHeight: '24px',
   fontStyle: 'normal',
   color: globalTheme.color.secondary,
@@ -34,8 +34,8 @@ export const badgeIconContinaer = style({
   alignItems: 'center',
   justifyContent: 'center',
   border: '1px solid #D8D9D9',
-  width: '86px',
-  height: '86px',
+  width: '5.375rem',
+  height: '5.375rem',
 });
 
 export const subTitle = style({
@@ -65,8 +65,8 @@ export const featureItemContainer = style({
 });
 
 export const featureIcon = style({
-  width: '22px',
-  height: '22px',
+  width: '1.375rem',
+  height: '1.375rem',
   borderRadius: '50%',
   border: '1px solid #D8D9D9',
   display: 'flex',
@@ -134,7 +134,7 @@ export const button = style({
   border: 'none',
   display: 'flex',
   flex: '1',
-  width: '280px',
+  width: '17.5rem',
   height: '46px',
   alignItems: 'center',
   justifyContent: 'center',
