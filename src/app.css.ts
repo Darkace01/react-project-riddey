@@ -16,6 +16,7 @@ export const globalTheme = createGlobalTheme(':root', {
     secondary: '#3C4043',
     gray2: '#242628',
     gray3: '#EBECEC',
+    lightGray: '#8A8C8E',
     primaryHover: '#B55147',
     primaryActive: '#883D35',
     white: '#FFFFFF',
@@ -30,13 +31,14 @@ export const globalTheme = createGlobalTheme(':root', {
       normal: '400',
       medium: '700',
     },
+    family: 'Montserrat, sans-serif',
   },
 });
 
 globalStyle('body', {
   padding: 0,
   margin: 0,
-  fontFamily: 'Montserrat, sans-serif',
+  fontFamily: globalTheme.font.family,
   textAlign: 'center',
   color: globalTheme.color.secondary,
 });

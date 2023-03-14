@@ -15,7 +15,6 @@ export const cardContainer = style({
 
 export const cardTitle = style({
   fontSize: '20px',
-  fontWeight: globalTheme.font.weight.medium,
   lineHeight: '24px',
   fontStyle: 'normal',
   color: globalTheme.color.secondary,
@@ -44,7 +43,7 @@ export const subTitle = style({
   fontWeight: globalTheme.font.weight.normal,
   lineHeight: '22px',
   fontStyle: 'normal',
-  color: '#636669',
+  color: globalTheme.color.lightGray,
 });
 
 export const featureListContainer = style({
@@ -93,7 +92,7 @@ export const featureItemSubtitle = style({
   fontSize: '12px',
   fontWeight: globalTheme.font.weight.normal,
   lineHeight: globalTheme.font.size.medium,
-  color: globalTheme.color.secondary,
+  color: globalTheme.color.lightGray,
   marginLeft: '5px',
 });
 
@@ -101,7 +100,7 @@ export const featureItemDescription = style({
   fontSize: '12px',
   fontWeight: globalTheme.font.weight.normal,
   lineHeight: globalTheme.font.size.medium,
-  color: globalTheme.color.secondary,
+  color: globalTheme.color.lightGray,
   textAlign: 'left',
 });
 
@@ -126,6 +125,7 @@ export const usageCount = style({
   fontWeight: globalTheme.font.weight.medium,
   lineHeight: globalTheme.font.size.medium,
   color: globalTheme.color.primary,
+  fontFamily: globalTheme.font.family,
 });
 
 export const button = style({
@@ -141,6 +141,7 @@ export const button = style({
   cursor: 'pointer',
   fontWeight: globalTheme.font.weight.medium,
   fontSize: globalTheme.font.size.small,
+  fontFamily: globalTheme.font.family,
 
   transition: 'background-color 200ms ease',
   ':hover': {
